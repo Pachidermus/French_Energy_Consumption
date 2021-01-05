@@ -1,0 +1,15 @@
+name: ramp-brevet
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - geopandas
+  - folium
+  - pip:
+      - ramp-workflow
